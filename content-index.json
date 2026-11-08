@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "repository": "artclass11/YT",
+  "channel": "Aset",
+  "channel_url": "https://www.youtube.com/channel/UCyQvyoHocWUexgxuyzRYGXg",
+  "entries": [
+    {
+      "date": "2026-11-08",
+      "status": "no_publication",
+      "report": "2026-11-08/publishing-status.json",
+      "final_videos_created": 0,
+      "scheduled": 0,
+      "published": 0
+    }
+  ]
+}
