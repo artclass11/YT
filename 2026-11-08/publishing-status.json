@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-08",
+  "timezone": "Asia/Kolkata",
+  "channel": "Aset",
+  "channel_url": "https://www.youtube.com/channel/UCyQvyoHocWUexgxuyzRYGXg",
+  "status": "no_publication",
+  "totals": {
+    "planned_formats": 8,
+    "final_videos_created": 0,
+    "approved": 0,
+    "scheduled": 0,
+    "published": 0
+  },
+  "entries": [
+    {
+      "stream": "AU INVEST",
+      "format": "short",
+      "status": "blocked",
+      "next_planned_slot": "2026-11-09T18:00:00+05:30",
+      "release_state": "not_approved",
+      "reason": "No final video and required release evidence were available. No YouTube post was submitted."
+    },
+    {
+      "stream": "AU INVEST",
+      "format": "full",
+      "status": "blocked",
+      "next_planned_slot": "2026-11-09T20:00:00+05:30",
+      "release_state": "not_approved",
+      "reason": "No final video and required release evidence were available. No YouTube post was submitted."
+    },
+    {
+      "stream": "BRANDSTUDIO",
+      "format": "short",
+      "status": "blocked",
+      "next_planned_slot": "2026-11-09T18:30:00+05:30",
+      "release_state": "not_approved",
+      "reason": "No final video and required release evidence were available. No YouTube post was submitted."
+    },
+    {
+      "stream": "BRANDSTUDIO",
+      "format": "full",
+      "status": "blocked",
+      "next_planned_slot": "2026-11-09T20:30:00+05:30",
+      "release_state": "not_approved",
+      "reason": "No final video and required release evidence were available. No YouTube post was submitted."
+    },
+    {
+      "stream": "ARCSTUDIO91",
+      "format": "short",
+      "status": "blocked",
+      "next_planned_slot": "2026-11-09T19:00:00+05:30",
+      "release_state": "not_approved",
+      "reason": "No final video and required release evidence were available. No YouTube post was submitted."
+    },
+    {
+      "stream": "ARCSTUDIO91",
+      "format": "full",
+      "status": "blocked",
+      "next_planned_slot": "2026-11-09T21:00:00+05:30",
+      "release_state": "not_approved",
+      "reason": "No final video and required release evidence were available. No YouTube post was submitted."
+    },
+    {
+      "stream": "ASET ORIGINAL",
+      "format": "short",
+      "status": "blocked",
+      "next_planned_slot": "2026-11-09T19:30:00+05:30",
+      "release_state": "not_approved",
+      "reason": "No final video and required release evidence were available. No YouTube post was submitted."
+    },
+    {
+      "stream": "ASET ORIGINAL",
+      "format": "full",
+      "status": "blocked",
+      "next_planned_slot": "2026-11-09T21:30:00+05:30",
+      "release_state": "not_approved",
+      "reason": "No final video and required release evidence were available. No YouTube post was submitted."
+    }
+  ],
+  "release_policy": "Only final media with verified rights, full technical validation and recorded exact-hash DOCS human approval may be published.",
+  "generated_at": "2026-11-08T22:48:23+05:30"
+}
