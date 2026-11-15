@@ -1,33 +1,20 @@
 name: Validate public YouTube media
-run-name: Validate public media package
 
-"on":
-  push:
-    branches:
-      - main
-    paths:
-      - '20??-??-??/**'
-      - 'content-index.json'
-      - 'scripts/validate_public_media.py'
-      - '.github/workflows/validate-public-media.yml'
-  workflow_dispatch:
+"on": [push, workflow_dispatch]
 
 permissions:
   contents: read
 
 jobs:
   validate:
-    name: Validate release-ready assets
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
+      - name: Compile validator
+        run: python3 -m py_compile scripts/validate_public_media.py
 
       - name: Install FFmpeg
         run: |
@@ -35,4 +22,4 @@ jobs:
           sudo apt-get install --yes ffmpeg
 
       - name: Validate public media packages
-        run: python scripts/validate_public_media.py
+        run: python3 scripts/validate_public_media.py
