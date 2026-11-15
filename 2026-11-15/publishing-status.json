@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-15",
+  "timezone": "Asia/Kolkata",
+  "channel": "Aset",
+  "channel_url": "https://www.youtube.com/channel/UCyQvyoHocWUexgxuyzRYGXg",
+  "status": "blocked",
+  "totals": {
+    "requested_candidates": 1,
+    "rendered_candidates": 1,
+    "final_videos_created": 0,
+    "approved": 0,
+    "scheduled": 0,
+    "published": 0,
+    "blocked": 1
+  },
+  "entries": [
+    {
+      "stream": "ASET ORIGINAL",
+      "format": "short",
+      "title": "AI वापरायला सुरुवात कशी कराल? | ३ सोपे प्रयोग",
+      "status": "blocked",
+      "release_state": "not_approved",
+      "reason": "A candidate MP4 was rendered, but it has on-screen Marathi text and instrumental background audio without spoken Marathi narration. The required DOCS release evidence is incomplete. The MP4 was not committed to the public media path and no Buffer post was submitted.",
+      "github_media_path": null,
+      "public_video_url": null,
+      "buffer_post_id": null,
+      "youtube_url": null
+    }
+  ],
+  "release_policy": "Only final media with verified rights, required spoken narration, complete DOCS release evidence, full technical validation and a valid public GitHub raw media URL may be submitted to Buffer.",
+  "generated_at": "2026-11-15T22:46:43+05:30"
+}
