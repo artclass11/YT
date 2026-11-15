@@ -1,14 +1,10 @@
 name: Validate public YouTube media
+run-name: Validate public media package
 
-on:
+"on":
   push:
-    branches: [main]
-    paths:
-      - '20??-??-??/**'
-      - 'content-index.json'
-      - 'scripts/validate_public_media.py'
-      - '.github/workflows/validate-public-media.yml'
-  pull_request:
+    branches:
+      - main
     paths:
       - '20??-??-??/**'
       - 'content-index.json'
@@ -19,12 +15,9 @@ on:
 permissions:
   contents: read
 
-concurrency:
-  group: aset-public-media-validation-${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
   validate:
+    name: Validate release-ready assets
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -41,5 +34,5 @@ jobs:
           sudo apt-get update
           sudo apt-get install --yes ffmpeg
 
-      - name: Validate release-ready public media
+      - name: Validate public media packages
         run: python scripts/validate_public_media.py
