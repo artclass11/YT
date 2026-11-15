@@ -11,6 +11,16 @@
       "final_videos_created": 0,
       "scheduled": 0,
       "published": 0
+    },
+    {
+      "date": "2026-11-15",
+      "status": "blocked",
+      "report": "2026-11-15/publishing-status.json",
+      "rendered_candidates": 1,
+      "final_videos_created": 0,
+      "approved": 0,
+      "scheduled": 0,
+      "published": 0
     }
   ]
 }
