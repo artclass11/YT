@@ -21,6 +21,18 @@
       "approved": 0,
       "scheduled": 0,
       "published": 0
+    },
+    {
+      "date": "2026-11-20",
+      "status": "blocked",
+      "report": "2026-11-20/publishing-status.json",
+      "requested_candidates": 3,
+      "rendered_candidates": 0,
+      "final_videos_created": 0,
+      "approved": 0,
+      "scheduled": 0,
+      "published": 0,
+      "blocked": 3
     }
   ]
 }
