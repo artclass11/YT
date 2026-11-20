@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-20",
+  "timezone": "Asia/Kolkata",
+  "channel": "Aset",
+  "channel_url": "https://www.youtube.com/channel/UCyQvyoHocWUexgxuyzRYGXg",
+  "status": "blocked",
+  "totals": {
+    "requested_candidates": 3,
+    "rendered_candidates": 0,
+    "final_videos_created": 0,
+    "approved": 0,
+    "scheduled": 0,
+    "published": 0,
+    "blocked": 3
+  },
+  "entries": [
+    {
+      "stream": "BRANDSTUDIO",
+      "format": "daily_video_package",
+      "title": null,
+      "status": "blocked",
+      "release_state": "not_rendered",
+      "reason": "No final MP4 or complete technical, factual, rights and release evidence was available. The owner-authorized YouTube human-review waiver does not waive these other release checks. No Buffer post was submitted.",
+      "github_media_path": null,
+      "public_video_url": null,
+      "buffer_post_id": null,
+      "youtube_url": null
+    },
+    {
+      "stream": "AU INVEST",
+      "format": "daily_video_package",
+      "title": null,
+      "status": "blocked",
+      "release_state": "review_required",
+      "reason": "No final MP4 or complete technical, factual, rights and release evidence was available. The required full-watch/full-listen human approval was not recorded. No Buffer post was submitted.",
+      "github_media_path": null,
+      "public_video_url": null,
+      "buffer_post_id": null,
+      "youtube_url": null
+    },
+    {
+      "stream": "ARCSTUDIO91",
+      "format": "daily_video_package",
+      "title": null,
+      "status": "blocked",
+      "release_state": "review_required",
+      "reason": "No final MP4 or complete technical, factual, rights and release evidence was available. The required full-watch/full-listen human approval was not recorded. No Buffer post was submitted.",
+      "github_media_path": null,
+      "public_video_url": null,
+      "buffer_post_id": null,
+      "youtube_url": null
+    }
+  ],
+  "release_policy": "Only a final MP4 with verified rights, factual review, required narration, full technical validation, brand-specific approval and a permanent public raw media URL may be submitted to Buffer. Scheduled or queued state is not publication.",
+  "generated_at": "2026-11-20T08:18:28+05:30"
+}
