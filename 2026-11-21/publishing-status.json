@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-21",
+  "timezone": "Asia/Kolkata",
+  "channel": "Aset",
+  "channel_url": "https://www.youtube.com/channel/UCyQvyoHocWUexgxuyzRYGXg",
+  "status": "blocked",
+  "totals": {
+    "youtube_requested_candidates": 6,
+    "youtube_rendered_candidates": 0,
+    "final_videos_created": 0,
+    "approved": 0,
+    "scheduled": 0,
+    "published": 0,
+    "youtube_blocked": 6,
+    "instagram_requested_formats": 3,
+    "instagram_packages_created": 0,
+    "instagram_scheduled": 0,
+    "instagram_sent": 0,
+    "instagram_blocked": 3
+  },
+  "entries": [
+    {
+      "stream": "BRANDSTUDIO",
+      "destination": "YouTube",
+      "format": "short_01",
+      "title": null,
+      "status": "blocked",
+      "release_state": "not_rendered",
+      "human_review": "waived_by_owner",
+      "reason": "No verified production runner or final MP4; technical, factual, rights and direct-media validation could not be completed. No Buffer post submitted."
+    },
+    {
+      "stream": "BRANDSTUDIO",
+      "destination": "YouTube",
+      "format": "short_02",
+      "title": null,
+      "status": "blocked",
+      "release_state": "not_rendered",
+      "human_review": "waived_by_owner",
+      "reason": "No verified production runner or final MP4; technical, factual, rights and direct-media validation could not be completed. No Buffer post submitted."
+    },
+    {
+      "stream": "BRANDSTUDIO",
+      "destination": "YouTube",
+      "format": "longform_01",
+      "title": null,
+      "status": "blocked",
+      "release_state": "not_rendered",
+      "human_review": "waived_by_owner",
+      "reason": "No verified production runner or final MP4; technical, factual, rights and direct-media validation could not be completed. No Buffer post submitted."
+    },
+    {
+      "stream": "BRANDSTUDIO",
+      "destination": "YouTube",
+      "format": "longform_02",
+      "title": null,
+      "status": "blocked",
+      "release_state": "not_rendered",
+      "human_review": "waived_by_owner",
+      "reason": "No verified production runner or final MP4; technical, factual, rights and direct-media validation could not be completed. No Buffer post submitted."
+    },
+    {
+      "stream": "BRANDSTUDIO",
+      "destination": "Instagram",
+      "format": "feed_image",
+      "status": "blocked",
+      "release_state": "not_rendered",
+      "reason": "Exact @brandsstudio11 Business channel is disconnected. No render or Buffer create attempt."
+    },
+    {
+      "stream": "BRANDSTUDIO",
+      "destination": "Instagram",
+      "format": "five_slide_carousel",
+      "slides": 5,
+      "status": "blocked",
+      "release_state": "not_rendered",
+      "reason": "Exact @brandsstudio11 Business channel is disconnected. No render or Buffer create attempt."
+    },
+    {
+      "stream": "BRANDSTUDIO",
+      "destination": "Instagram",
+      "format": "reel",
+      "status": "blocked",
+      "release_state": "not_rendered",
+      "reason": "Exact @brandsstudio11 Business channel is disconnected. No render or Buffer create attempt."
+    },
+    {
+      "stream": "AU INVEST",
+      "destination": "YouTube",
+      "format": "daily_video_package",
+      "title": null,
+      "status": "blocked",
+      "release_state": "review_required",
+      "human_review": "not_recorded",
+      "reason": "No final MP4 or release evidence; required full-watch/full-listen approval is absent. No Buffer post submitted."
+    },
+    {
+      "stream": "ARCSTUDIO91",
+      "destination": "YouTube",
+      "format": "daily_video_package",
+      "title": null,
+      "status": "blocked",
+      "release_state": "review_required",
+      "human_review": "not_recorded",
+      "reason": "No final MP4 or release evidence; required full-watch/full-listen approval is absent. No Buffer post submitted."
+    },
+    {
+      "stream": "ARCSTUDIO91",
+      "destination": "Instagram",
+      "format": "reel",
+      "title": null,
+      "status": "blocked",
+      "release_state": "review_required",
+      "human_review": "not_recorded",
+      "reason": "Channel is connected and unlocked, but no final Reel, technical/rights evidence or full-watch/full-listen approval exists. No Buffer post submitted."
+    }
+  ],
+  "skipped_formats": [
+    {
+      "stream": "ARCSTUDIO91",
+      "destination": "Instagram",
+      "formats": [
+        "feed_image",
+        "carousel",
+        "story"
+      ],
+      "reason": "Reels-only policy effective 2026-11-21."
+    },
+    {
+      "stream": "AU INVEST",
+      "destination": "Instagram",
+      "formats": [
+        "all"
+      ],
+      "reason": "No separately authorized Instagram destination is configured."
+    }
+  ],
+  "buffer": {
+    "organization": "My organization",
+    "channel_checks": {
+      "Aset": {
+        "service": "youtube",
+        "connected": true,
+        "locked": false,
+        "posts_checked": 15,
+        "latest_sent_at": "2026-11-16T00:39:56+05:30"
+      },
+      "BRANDSTUDIO": {
+        "service": "instagram",
+        "connected": false,
+        "locked": false,
+        "latest_sent_at": "2026-11-08T23:13:22+05:30"
+      },
+      "ARCSTUDIO91": {
+        "service": "instagram",
+        "connected": true,
+        "locked": false,
+        "latest_sent_at": "2026-11-08T23:15:05+05:30"
+      }
+    },
+    "posts_checked_across_three_channels": 92,
+    "scheduled": 0,
+    "sending": 0,
+    "error": 0,
+    "posts_created_today": 0
+  },
+  "notification": {
+    "baseline": "2026-11-09T19:59:16+05:30",
+    "checked_at": "2026-11-21T08:17:26+05:30",
+    "newly_confirmed_sent": 0,
+    "previously_reported_since_baseline": 5
+  },
+  "release_policy": "Only a final MP4 with verified rights, factual review, required narration, full technical validation, brand-specific approval and a permanent public raw media URL may be submitted to Buffer. Scheduled or queued state is not publication."
+}
