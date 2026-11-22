@@ -48,6 +48,22 @@
       "instagram_requested_formats": 4,
       "instagram_packages_created": 0,
       "instagram_blocked": 4
+    },
+    {
+      "date": "2026-11-22",
+      "status": "blocked",
+      "report": "2026-11-22/publishing-status.json",
+      "requested_candidates": 6,
+      "rendered_candidates": 0,
+      "final_videos_created": 0,
+      "approved": 0,
+      "scheduled": 0,
+      "published": 0,
+      "blocked": 6,
+      "instagram_requested_formats": 4,
+      "instagram_packages_created": 0,
+      "instagram_blocked": 4,
+      "repository_commit": "1951536ef7b529ecb8b443c7babff388dea298db"
     }
   ]
 }
