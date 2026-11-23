@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-23",
+  "timezone": "Asia/Kolkata",
+  "channel": "Aset",
+  "overall_status": "blocked",
+  "requested": {
+    "youtube_candidates": 6,
+    "instagram_formats": 4
+  },
+  "totals": {
+    "research_packages_created_private": 10,
+    "script_and_copy_drafts_created_private": 10,
+    "rendered_candidates": 0,
+    "final_videos_created": 0,
+    "instagram_media_packages_created": 0,
+    "public_media_packages_archived": 0,
+    "buffer_posts_created": 0,
+    "scheduled": 0,
+    "published": 0,
+    "blocked_youtube": 6,
+    "blocked_instagram": 4
+  },
+  "entries": [
+    {
+      "stream": "brandstudio",
+      "platform": "youtube",
+      "format": "short",
+      "topic": "Nestlé Orbe Deep Tech Center: AI, sensors and robotics in food manufacturing",
+      "status": "blocked",
+      "research": "pass",
+      "script": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "release_state": "blocked",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "youtube",
+      "format": "short",
+      "topic": "IEA 2026: energy use per AI task versus total data-centre demand",
+      "status": "blocked",
+      "research": "pass",
+      "script": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "release_state": "blocked",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "youtube",
+      "format": "long_form",
+      "topic": "AI in food factories: sensors, robotics, pilot validation and human judgement",
+      "status": "blocked",
+      "research": "pass",
+      "script": "draft",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "release_state": "blocked",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "youtube",
+      "format": "long_form",
+      "topic": "AI energy: per-task efficiency versus system-level demand",
+      "status": "blocked",
+      "research": "pass",
+      "script": "draft",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "release_state": "blocked",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "instagram",
+      "format": "feed_image",
+      "topic": "Factory AI: pilot before rollout",
+      "status": "blocked",
+      "research": "pass",
+      "copy": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "release_state": "blocked",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "instagram",
+      "format": "carousel",
+      "topic": "Factory AI: pilot before rollout",
+      "status": "blocked",
+      "research": "pass",
+      "copy": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "release_state": "blocked",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "instagram",
+      "format": "reel",
+      "topic": "Factory AI: pilot before rollout",
+      "status": "blocked",
+      "research": "pass",
+      "script": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "release_state": "blocked",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "au-invest",
+      "platform": "youtube",
+      "format": "short",
+      "topic": "Gold is not guaranteed to rise during short-term market stress",
+      "status": "blocked",
+      "research": "pass",
+      "script": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "release_state": "review_required",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "arcstudio91",
+      "platform": "youtube",
+      "format": "short",
+      "topic": "Protecting architectural quality during construction with sensitivity planning and BIM sequencing",
+      "status": "blocked",
+      "research": "pass",
+      "script": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "release_state": "review_required",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "arcstudio91",
+      "platform": "instagram",
+      "format": "reel",
+      "topic": "Plan protection before construction damage occurs",
+      "status": "blocked",
+      "research": "pass",
+      "script": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "release_state": "review_required",
+      "provider_status": "not_submitted"
+    }
+  ],
+  "skipped_formats": [
+    {
+      "stream": "arcstudio91",
+      "platform": "instagram",
+      "formats": [
+        "feed_image",
+        "carousel",
+        "story"
+      ],
+      "reason": "Reels-only policy effective 2026-11-21; no substitute format created."
+    },
+    {
+      "stream": "au-invest",
+      "platform": "instagram",
+      "formats": [
+        "feed_image",
+        "carousel",
+        "reel",
+        "story"
+      ],
+      "reason": "No separately authorized Instagram destination configured."
+    }
+  ],
+  "buffer_check": {
+    "organization": "My organization",
+    "checked_at": "2026-11-23T08:27:54+05:30",
+    "youtube_channel": {
+      "name": "Aset",
+      "connected": true,
+      "locked": false
+    },
+    "instagram_channels": [
+      {
+        "name": "brandsstudio11",
+        "connected": false,
+        "locked": false
+      },
+      {
+        "name": "arcstudio91",
+        "connected": true,
+        "locked": false
+      }
+    ],
+    "sent_posts_created_last_30_days": {
+      "total": 46,
+      "aset_youtube": 10,
+      "brandstudio_instagram": 18,
+      "arcstudio91_instagram": 18
+    },
+    "scheduled_posts": 0,
+    "sending_posts": 0,
+    "error_posts": 0
+  },
+  "archive": {
+    "public_status_record_only": true,
+    "final_media_packages": 0,
+    "final_mp4s": 0,
+    "thumbnails": 0,
+    "subtitles": 0,
+    "descriptions": 0,
+    "manifests": 0,
+    "technical_qa_reports": 0,
+    "rights_manifests": 0,
+    "reason": "No validated final media assets were available. No placeholder, preview, local path or unvalidated media was archived."
+  },
+  "publication": {
+    "buffer_posts_created": 0,
+    "scheduled": 0,
+    "sent": 0,
+    "provider_post_ids": [],
+    "permalinks": []
+  }
+}
