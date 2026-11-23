@@ -195,7 +195,7 @@
   ],
   "buffer_check": {
     "organization": "My organization",
-    "checked_at": "2026-11-23T08:27:54+05:30",
+    "checked_at": "2026-11-23T08:45:58+05:30",
     "youtube_channel": {
       "name": "Aset",
       "connected": true,
@@ -221,7 +221,8 @@
     },
     "scheduled_posts": 0,
     "sending_posts": 0,
-    "error_posts": 0
+    "error_posts": 0,
+    "posts_reviewed": 46
   },
   "archive": {
     "public_status_record_only": true,
