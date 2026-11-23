@@ -64,6 +64,23 @@
       "instagram_packages_created": 0,
       "instagram_blocked": 4,
       "repository_commit": "1951536ef7b529ecb8b443c7babff388dea298db"
+    },
+    {
+      "date": "2026-11-23",
+      "status": "blocked",
+      "report": "2026-11-23/publishing-status.json",
+      "requested_candidates": 6,
+      "rendered_candidates": 0,
+      "final_videos_created": 0,
+      "approved": 0,
+      "scheduled": 0,
+      "published": 0,
+      "blocked": 6,
+      "instagram_requested_formats": 4,
+      "instagram_packages_created": 0,
+      "instagram_blocked": 4,
+      "private_preproduction_packages": 10,
+      "repository_commit": "b5f29a4ec07ec4f719fc534213d20b08a3417a3a"
     }
   ]
 }
