@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-24",
+  "timezone": "Asia/Kolkata",
+  "channel": "Aset",
+  "overall_status": "blocked",
+  "requested": {
+    "youtube_candidates": 6,
+    "instagram_formats": 4
+  },
+  "totals": {
+    "private_preproduction_packages": 10,
+    "research_packages_created_private": 10,
+    "script_and_copy_drafts_created_private": 10,
+    "rendered_candidates": 0,
+    "final_videos_created": 0,
+    "instagram_media_packages_created": 0,
+    "public_media_packages_archived": 0,
+    "buffer_posts_created": 0,
+    "scheduled": 0,
+    "published": 0,
+    "blocked_youtube": 6,
+    "blocked_instagram": 4
+  },
+  "entries": [
+    {
+      "stream": "brandstudio",
+      "platform": "youtube",
+      "format": "short",
+      "run_id": "2026-11-24-BRANDSTUDIO-YT-SHORT-01",
+      "topic": "USB-C cable power rating versus data speed",
+      "status": "blocked",
+      "research": "pass",
+      "script": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "approval_state": "owner_human_review_waived_for_youtube_only",
+      "release_state": "blocked",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "youtube",
+      "format": "short",
+      "run_id": "2026-11-24-BRANDSTUDIO-YT-SHORT-02",
+      "topic": "Wi-Fi 7 features, 6 GHz regional spectrum and real-world compatibility",
+      "status": "blocked",
+      "research": "pass",
+      "script": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "approval_state": "owner_human_review_waived_for_youtube_only",
+      "release_state": "blocked",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "youtube",
+      "format": "long_form",
+      "run_id": "2026-11-24-BRANDSTUDIO-YT-LONG-01",
+      "topic": "USB-C: power, data and display are three separate compatibility questions",
+      "status": "blocked",
+      "research": "pass",
+      "script": "draft",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "approval_state": "owner_human_review_waived_for_youtube_only",
+      "release_state": "blocked",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "youtube",
+      "format": "long_form",
+      "run_id": "2026-11-24-BRANDSTUDIO-YT-LONG-02",
+      "topic": "Wi-Fi 7: feature list versus regional spectrum and home-network reality",
+      "status": "blocked",
+      "research": "pass",
+      "script": "draft",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "approval_state": "owner_human_review_waived_for_youtube_only",
+      "release_state": "blocked",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "instagram",
+      "format": "feed_image",
+      "run_id": "2026-11-24-BRANDSTUDIO-IG-FEED",
+      "topic": "USB-C: Power is not data speed",
+      "status": "blocked",
+      "research": "pass",
+      "copy": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "approval_state": "not_required_by_lane",
+      "release_state": "blocked_account_disconnected",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "instagram",
+      "format": "carousel",
+      "run_id": "2026-11-24-BRANDSTUDIO-IG-CAROUSEL",
+      "topic": "USB-C: five-slide power/data/display buyer checklist",
+      "status": "blocked",
+      "research": "pass",
+      "copy": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "approval_state": "not_required_by_lane",
+      "release_state": "blocked_account_disconnected",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "instagram",
+      "format": "reel",
+      "run_id": "2026-11-24-BRANDSTUDIO-IG-REEL",
+      "topic": "USB-C: 240W does not mean fast data",
+      "status": "blocked",
+      "research": "pass",
+      "script": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "approval_state": "not_required_by_lane",
+      "release_state": "blocked_account_disconnected",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "au-invest",
+      "platform": "youtube",
+      "format": "short",
+      "run_id": "2026-11-24-AU-INVEST-YT-SHORT",
+      "topic": "BIS jewellery hallmarking rules versus gold bullion/coin assay evidence",
+      "status": "blocked",
+      "research": "pass",
+      "script": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "approval_state": "full_watch_full_listen_absent",
+      "release_state": "review_required",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "arcstudio91",
+      "platform": "youtube",
+      "format": "short",
+      "run_id": "2026-11-24-ARCSTUDIO91-YT-SHORT",
+      "topic": "Clinker, LC3 and why low-carbon concrete still needs structural validation",
+      "status": "blocked",
+      "research": "pass",
+      "script": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "approval_state": "youtube_full_watch_full_listen_absent",
+      "release_state": "review_required",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "arcstudio91",
+      "platform": "instagram",
+      "format": "reel",
+      "run_id": "2026-11-24-ARCSTUDIO91-IG-REEL",
+      "topic": "LC3 and the importance of project-specific material testing",
+      "status": "blocked",
+      "research": "pass",
+      "script": "pass",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "approval_state": "instagram_full_watch_full_listen_absent",
+      "release_state": "review_required",
+      "provider_status": "not_submitted"
+    }
+  ],
+  "skipped_formats": [
+    {
+      "stream": "arcstudio91",
+      "platform": "instagram",
+      "formats": [
+        "feed_image",
+        "carousel",
+        "story"
+      ],
+      "reason": "Reels-only policy effective 2026-11-21; no substitute format created."
+    },
+    {
+      "stream": "au-invest",
+      "platform": "instagram",
+      "formats": [
+        "feed_image",
+        "carousel",
+        "reel",
+        "story"
+      ],
+      "reason": "No separately authorized Instagram destination configured."
+    }
+  ],
+  "buffer_check": {
+    "organization": "My organization",
+    "checked_at": "2026-11-24T08:23:47+05:30",
+    "channels": [
+      {
+        "name": "Aset",
+        "display_name": "Aset",
+        "service": "youtube",
+        "channel_id": "6af01ffc62b70b94b0baef5e",
+        "connected": true,
+        "locked": false
+      },
+      {
+        "name": "brandsstudio11",
+        "display_name": "brandsstudio11",
+        "service": "instagram",
+        "channel_id": "6aea92efe29c69a17155710a",
+        "connected": false,
+        "locked": false
+      },
+      {
+        "name": "arcstudio91",
+        "display_name": "arcstudio91",
+        "service": "instagram",
+        "channel_id": "6aea9a9ce29c69a17155bafe",
+        "connected": true,
+        "locked": false
+      }
+    ],
+    "posts_created_last_30_days": {
+      "total": 46,
+      "aset_youtube_sent": 10,
+      "brandstudio_instagram_sent": 18,
+      "arcstudio91_instagram_sent": 18
+    },
+    "scheduled_posts": 0,
+    "sending_posts": 0,
+    "error_posts": 0,
+    "posts_reviewed": 46,
+    "pagination_exhausted": true,
+    "aset_sent_after_notification_baseline": 6,
+    "aset_posts_already_in_notification_ledger": 6,
+    "newly_confirmed_sent_posts": 0
+  },
+  "archive": {
+    "public_status_record_only": true,
+    "final_media_packages": 0,
+    "final_mp4s": 0,
+    "thumbnails": 0,
+    "subtitles": 0,
+    "descriptions": 0,
+    "manifests": 0,
+    "technical_qa_reports": 0,
+    "rights_manifests": 0,
+    "reason": "No validated final media assets existed. No placeholder, preview, local path or unvalidated media was archived."
+  },
+  "publication": {
+    "buffer_posts_created": 0,
+    "scheduled": 0,
+    "sent": 0,
+    "provider_post_ids": [],
+    "permalinks": []
+  }
+}
