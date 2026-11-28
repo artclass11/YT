@@ -98,6 +98,21 @@
       "instagram_blocked": 4,
       "private_preproduction_packages": 10,
       "repository_commit": "efb3dca5df4425ccfc053ed6df50bdc70169de38"
+    },
+    {
+      "date": "2026-11-28",
+      "status": "blocked",
+      "report": "2026-11-28/publishing-status.json",
+      "requested_candidates": 10,
+      "rendered_candidates": 0,
+      "final_videos_created": 0,
+      "approved": 0,
+      "scheduled": 0,
+      "published": 0,
+      "blocked": 10,
+      "instagram_packages_created": 0,
+      "public_media_packages_archived": 0,
+      "repository_commit": "890eb3e9581471ee7db5e874b64e3989af3d7d55"
     }
   ]
 }
