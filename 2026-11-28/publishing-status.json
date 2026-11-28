@@ -61,14 +61,14 @@
     "pagination": "Aset status query returned no next page; all six post IDs match prior run's notification ledger."
   },
   "totals": {
-    "requested_candidates": 9,
+    "requested_candidates": 10,
     "rendered_candidates": 0,
     "final_videos_created": 0,
     "public_media_packages_archived": 0,
     "buffer_posts_created": 0,
     "scheduled": 0,
     "sent": 0,
-    "blocked": 9
+    "blocked": 10
   },
   "entries": [
     {
