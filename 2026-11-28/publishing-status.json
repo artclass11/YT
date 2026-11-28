@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-28",
+  "timezone": "Asia/Kolkata",
+  "channel": "Aset",
+  "run_id": "2026-11-28-CENTRAL-BRAND-SUPERVISOR",
+  "overall_status": "blocked",
+  "preflight": {
+    "docs_read": [
+      "README.md",
+      "skill.md",
+      "production/README.md",
+      "docs/SOCIAL_PUBLISHING_AUTOMATION.md",
+      ".github/workflows/production-factory.yml"
+    ],
+    "yt_read": [
+      "README.md",
+      "AUTOMATION_PIPELINE.md",
+      "content-index.json",
+      "2026-11-24/publishing-status.json",
+      "2026-11-23/publishing-status.json"
+    ],
+    "current_dated_ledger": "not_found",
+    "last_30_day_archive": "incomplete; index latest entry is 2026-11-24; 2026-11-25 through 2026-11-28 status files not found",
+    "production_supervisor_py": "not found at repository root; no allowlisted health/repair command executed",
+    "runner": "not_verified_online",
+    "local_resources": "not_accessible_from_this_execution; FFmpeg/ffprobe/decode/GPU/storage/local voice/model/license not tested",
+    "failure_class": "INFRA",
+    "evidence": "DOCS production factory requires the self-hosted docs-production runner and local services; no current runner health evidence was available."
+  },
+  "buffer": {
+    "organization": "My organization",
+    "checked_at": "2026-11-28T08:20:04+05:30",
+    "channels": [
+      {
+        "name": "Aset",
+        "id": "6af01ffc62b70b94b0baef5e",
+        "service": "youtube",
+        "connected": true,
+        "locked": false
+      },
+      {
+        "name": "arcstudio91",
+        "id": "6aea9a9ce29c69a17155bafe",
+        "service": "instagram",
+        "connected": true,
+        "locked": false
+      },
+      {
+        "name": "brandsstudio11",
+        "id": "6aea92efe29c69a17155710a",
+        "service": "instagram",
+        "connected": false,
+        "locked": false
+      }
+    ],
+    "posts_read": "read-only sent/scheduled/sending/error history queried for exact channel IDs; no create attempted",
+    "aset_notification_baseline": "2026-11-09T19:59:16+05:30",
+    "aset_sent_after_baseline": 6,
+    "aset_newly_confirmed_since_prior_notification_ledger": 0,
+    "pagination": "Aset status query returned no next page; all six post IDs match prior run's notification ledger."
+  },
+  "totals": {
+    "requested_candidates": 9,
+    "rendered_candidates": 0,
+    "final_videos_created": 0,
+    "public_media_packages_archived": 0,
+    "buffer_posts_created": 0,
+    "scheduled": 0,
+    "sent": 0,
+    "blocked": 9
+  },
+  "entries": [
+    {
+      "stream": "brandstudio",
+      "platform": "youtube",
+      "format": "short",
+      "run_id": "2026-11-28-BRANDSTUDIO-YT-SHORT-01",
+      "status": "blocked",
+      "research": "not_run",
+      "script": "not_run",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "approval_state": "human_review_waived_for_youtube_only",
+      "release_state": "blocked_infra_preflight",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "youtube",
+      "format": "short",
+      "run_id": "2026-11-28-BRANDSTUDIO-YT-SHORT-02",
+      "status": "blocked",
+      "research": "not_run",
+      "script": "not_run",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "approval_state": "human_review_waived_for_youtube_only",
+      "release_state": "blocked_infra_preflight",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "youtube",
+      "format": "long_form",
+      "run_id": "2026-11-28-BRANDSTUDIO-YT-LONG-01",
+      "status": "blocked",
+      "research": "not_run",
+      "script": "not_run",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "approval_state": "human_review_waived_for_youtube_only",
+      "release_state": "blocked_infra_preflight",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "youtube",
+      "format": "long_form",
+      "run_id": "2026-11-28-BRANDSTUDIO-YT-LONG-02",
+      "status": "blocked",
+      "research": "not_run",
+      "script": "not_run",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "approval_state": "human_review_waived_for_youtube_only",
+      "release_state": "blocked_infra_preflight",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "instagram",
+      "format": "feed_image",
+      "run_id": "2026-11-28-BRANDSTUDIO-IG-FEED_IMAGE",
+      "status": "blocked",
+      "research": "not_run",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "approval_state": "not_required_by_lane",
+      "release_state": "blocked_account_disconnected_and_infra_unverified",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "instagram",
+      "format": "carousel",
+      "run_id": "2026-11-28-BRANDSTUDIO-IG-CAROUSEL",
+      "status": "blocked",
+      "research": "not_run",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "approval_state": "not_required_by_lane",
+      "release_state": "blocked_account_disconnected_and_infra_unverified",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "brandstudio",
+      "platform": "instagram",
+      "format": "reel",
+      "run_id": "2026-11-28-BRANDSTUDIO-IG-REEL",
+      "status": "blocked",
+      "research": "not_run",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "approval_state": "not_required_by_lane",
+      "release_state": "blocked_account_disconnected_and_infra_unverified",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "au-invest",
+      "platform": "youtube",
+      "format": "short_or_DOCS_approved_daily_format",
+      "run_id": "2026-11-28-AU-INVEST-YT-DAILY",
+      "status": "blocked",
+      "research": "not_run",
+      "script": "not_run",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "approval_state": "full_watch_full_listen_absent",
+      "release_state": "review_required_and_infra_unverified",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "arcstudio91",
+      "platform": "youtube",
+      "format": "short_or_DOCS_approved_daily_format",
+      "run_id": "2026-11-28-ARCSTUDIO91-YT-DAILY",
+      "status": "blocked",
+      "research": "not_run",
+      "script": "not_run",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "approval_state": "youtube_full_watch_full_listen_absent",
+      "release_state": "review_required_and_infra_unverified",
+      "provider_status": "not_submitted"
+    },
+    {
+      "stream": "arcstudio91",
+      "platform": "instagram",
+      "format": "reel",
+      "run_id": "2026-11-28-ARCSTUDIO91-IG-REEL",
+      "status": "blocked",
+      "research": "not_run",
+      "script": "not_run",
+      "assets": "blocked",
+      "render": "blocked",
+      "technical_qa": "not_run",
+      "fact_rights_qa": "not_run",
+      "approval_state": "instagram_full_watch_full_listen_absent",
+      "release_state": "review_required_and_infra_unverified",
+      "provider_status": "not_submitted"
+    }
+  ],
+  "skipped_formats": [
+    {
+      "stream": "arcstudio91",
+      "platform": "instagram",
+      "formats": [
+        "feed_image",
+        "carousel",
+        "story"
+      ],
+      "reason": "Reels-only policy; no substitute format created."
+    },
+    {
+      "stream": "au-invest",
+      "platform": "instagram",
+      "formats": [
+        "feed_image",
+        "carousel",
+        "reel",
+        "story"
+      ],
+      "reason": "No separately authorized Instagram destination configured."
+    }
+  ],
+  "archive": {
+    "public_status_record_only": true,
+    "final_media_packages": 0,
+    "final_mp4s": 0,
+    "reason": "No validated final MP4 or release evidence available; no placeholder or unvalidated asset archived."
+  },
+  "publication": {
+    "buffer_posts_created": 0,
+    "scheduled": 0,
+    "sent": 0,
+    "provider_post_ids": [],
+    "permalinks": []
+  },
+  "repairs": [],
+  "next_owner_actions": [
+    "Verify the DOCS docs-production self-hosted runner and its local dependencies/services.",
+    "Reconnect @brandsstudio11 in Buffer.",
+    "Provide separate full-watch/full-listen approvals for AU INVEST YouTube and ARCSTUDIO91 YouTube and Instagram after exact final assets exist.",
+    "Resolve GitHub Actions runner allocation and test execution for YOUTUBE PR #3 before merging."
+  ]
+}
